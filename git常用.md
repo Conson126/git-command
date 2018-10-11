@@ -191,7 +191,8 @@
 	* 查看：
 		* git stash show stash@{id}
 		* git show 变化文件
-* 8、查看：git show
+* 8、查看：
+    git show
 	* git show &id /————> 查看某次修改记录
 	* git log /————>查看所有提交历史
 	* git log $id /————>查看某次提交历史信息
@@ -201,7 +202,12 @@
 	* git log --pretty=oneline  /————>显示所有提交历史修改的内容
 	* git log --pretty=oneline 文件名  /————>查看某个文件修改的历史纪录
 	* git blame fileName /————>以列表形式查看某文件修改历史
-    * git whatchanged 文件名 /————>显示某个文件的所有提交历史
+    	* git whatchanged 文件名 /————>显示某个文件的所有提交历史
+    
+    git diff
+    * git diff 比较的是工作区和暂存区的差别
+    * git diff --cached 比较的是暂存区和版本库的差别
+    * git diff HEAD 可以查看工作区和版本库的差别
 * 9、拉去与获取：git fetch & pull
 	* 查看git fetch和git pull默认从远程哪个分支
 		* git remote -v
