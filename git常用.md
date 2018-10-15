@@ -227,6 +227,9 @@
 	* git rm --cached fileName  /————>停止跟踪某文件
 	* git branch -d 分支 /————>删除某分支
 	* git branch -D 分支 /————>删除分支（强制，-d删除不了的时候）
+	* git tag -d [tagName] /————>删除某个标签<删除本地的>
+	* git push origin --delete tag [tagName] /————>删除远程tag
+	* git push origin :/refs/tags/[tagName] /————>删除远程tag
 * 12、打标签：git tag
 	* 用处：常用与版本发布：[https://github.com/shadowsocks/shadowsocks-android/releases](https://github.com/shadowsocks/shadowsocks-android/releases)
 	* git tag /————>查看当前仓库所有tag
@@ -235,9 +238,6 @@
 	* git show [tagName] /————>查看改版本详细信息
 	* git push origin [tagName] /————>推送某个标签到远程
 	* git push origin -tags /————>推送本地所有标签到远程仓库
-	* git tag -d [tagName] /————>删除某个标签<删除本地的>
-	* git push origin --delete tag [tagName] /————>删除远程tag
-	* git push origin :/refs/tags/[tagName] /————>删除远程tag
 * 13、其他
 	* 
 	
