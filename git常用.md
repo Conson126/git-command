@@ -239,7 +239,8 @@
 	* git push origin [tagName] /————>推送某个标签到远程
 	* git push origin -tags /————>推送本地所有标签到远程仓库
 * 13、其他
-	* 
+* 14、查看文件每一行的是谁修改的
+	* git blame 文件名 
 	
 
 
