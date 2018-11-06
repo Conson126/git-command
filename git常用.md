@@ -90,6 +90,7 @@
 	* cd工程根目录，git init  ——>变成了一个本地仓库
 	* git status会看到很多git未提交文件，此时可以git add，git commit
 	* 设置远程仓库地址：git remote add origin ssh://root@23.105.220.74:28700/rep/project.git
+		<origin其实就是一个昵称，代表的是ssh://root@23.105.220.74:28700/rep/project.git这个url，可以添加多个远程仓库的url。昵称可以是任何其他的名字>
 	* 将本地代码推送到该git远程仓库：git push origin master:master
 	* 添加之后，只是配置了本地仓库的远程仓库信息  git remote show origin
 
@@ -204,6 +205,7 @@
 	* git log --pretty=oneline 文件名  /————>查看某个文件修改的历史纪录
 	* git blame fileName /————>以列表形式查看某文件修改历史
     	* git whatchanged 文件名 /————>显示某个文件的所有提交历史
+	* git blame 文件名    /————>显示文件每行内容是谁修改的
     
     git diff
     * git diff 比较的是工作区和暂存区的差别
