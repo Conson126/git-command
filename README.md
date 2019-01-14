@@ -247,7 +247,8 @@
 * 13、其他
 * 14、查看文件每一行的是谁修改的
 	* git blame 文件名 
-	
+* 15、设置本地某个分支追踪到远程分支：
+        * git branch --set-upstream-to=origin/<branch> master  /————>设置本地的master分支追踪到origin/<branch>	
 
 
 	
