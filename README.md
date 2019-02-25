@@ -142,6 +142,8 @@
 * 2、克隆
 	* cd到某一目录 ——> git clone 仓库名
 	* 直接任意目录 git clone 仓库名 目录名    ——>可用于对本地仓库重命名
+	* clone某一个分支： git clone -b 分支名 仓库url
+	* clone某个pr中的未合并的commit：git fetch origin pull/pr ID/head:BRANCHNAME ，然后切换当BRANCHNAME
 * 3、查看分支
 	* git branch  查看本地分支
 	* git branch -a 查看所有分支
