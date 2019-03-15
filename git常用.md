@@ -247,6 +247,13 @@
 * 13、其他
 * 14、查看文件每一行的是谁修改的
 	* git blame 文件名 
+* 15、git设置代理
+        * git config --global http.proxy http://192.168.2.149:7878
+	* git config --global https.proxy http://192.168.2.149:7878
+	* git config --global http.proxy 'socks5://127.0.0.1:1080'
+	* git config --global https.proxy 'socks5://127.0.0.1:1080'
+去掉代理：git config --global --unset http.proxy
+         git config --global --unset https.proxy
 	
 
 
