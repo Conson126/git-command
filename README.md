@@ -253,7 +253,8 @@
 	* git branch --set-upstream-to=origin/<branch> master  /————>设置本地的master分支追踪到origin/<branch>	
 * 16、每次push或者pull的时候需要输入用户名密码，设置：
 	* git config --global credential.helper manager
-
+* 17、git查看某次提交修改的文件
+	* git log --stat commitID 
 
 	
 
