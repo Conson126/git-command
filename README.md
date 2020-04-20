@@ -32,26 +32,6 @@
 
 3、Eclipse上使用Git的项目数量也已经超过了使用SVN的仓库数。
 
-###二、git工作模型
-
-1、中心版本库（origin）
-
-![](http://roclinux.cn/wp-content/uploads/2010/12/centr-decentr.png)
-
-2、分支
-
-* 主分支（master）可发布状态代码
-
-* 开发分支（develop）最新开发进度代码
-
-![](http://roclinux.cn/wp-content/uploads/2010/12/git-master-develop.png)
-
-3、团队协作开发
-
-* 辅助分支：  Feature branches、 Release branches、 Hotfix branches
-
-![](http://roclinux.cn/wp-content/uploads/2010/12/bigpicture-git-branch-all.png)
-
 ###三、在服务器上搭建一个自己的git仓库
 ####1、免费托管项目代码的仓库：github、gitlib、bitbucket ...
 
