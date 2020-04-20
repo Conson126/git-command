@@ -26,7 +26,7 @@
 ##git介绍
 ###一、GIT简介 
 
-1、Linus的第二个伟大作品。2005年由于BitKeeper软件公司对Linux社区停止了免费使用权。Linus迫不得己自己开发了一个分布式版本控制工具，从而Git诞生了。 
+1、Linux的第二个伟大作品。2005年由于BitKeeper软件公司对Linux社区停止了免费使用权。Linus迫不得己自己开发了一个分布式版本控制工具，从而Git诞生了。 
 
 2、目前使用Git作为版本控制的开源软件：Linux kernel，Android, jQuery, Ruby on Rails，Debian…
 
